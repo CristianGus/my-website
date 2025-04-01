@@ -22,8 +22,14 @@
         <nav class="nav container">
             <div class="nav__logo">
                 <h2 class="nav__title">Cristian Leiva</h2>
+                <div class="nav__language">
+                    <select id="language-switch">
+                        <option value="es">🇪🇸 Español</option>
+                        <option value="en">🇬🇧 English</option>
+                    </select>
+                </div>
             </div>
-        
+
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
                     <a href="#historia" class="nav__links">Historia</a>
@@ -34,18 +40,18 @@
                 <li class="nav__items">
                     <a href="#links" class="nav__links">Links</a>
                 </li>
-                <li class="nav__items">
+                <!--<li class="nav__items">
                     <a href="#skills" class="nav__links">Skills</a>
-                </li>
-        
+                </li>-->
+
                 <img src="./images/close.svg" class="nav__close">
             </ul>
-        
+
             <div class="nav__menu">
                 <img src="./images/menu.svg" class="nav__img">
             </div>
         </nav>
-        
+
 
         <section class="hero__container container">
             <h1 class="hero__title">Frontend Developer</h1>
@@ -64,10 +70,8 @@
 
                 <section class="testimony__body testimony__body--show" data-id="1">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Cristian Leiva, <span class="testimony__course">Desarrollador Forntend</span></h2>
-                        <p class="testimony__review">con experiencia en la creación de interfaces web optimizadas y accesibles. Me especializo en maquetado preciso, desarrollo de componentes reutilizables y optimización del rendimiento en la web. He trabajado con tecnologías como HTML, CSS, JavaScript y CMS como Adobe Experience Manager, WordPress y Drupal.
-                            Me apasiona transformar diseños en experiencias interactivas y funcionales, asegurando que cada detalle cumpla con los estándares modernos. Siempre estoy buscando nuevas oportunidades para seguir creciendo y perfeccionando mis habilidades.
-                            Cuando no estoy programando, disfruto explorando nuevas tendencias en desarrollo web, trabajando en mi portafolio o aprendiendo sobre automatización del hogar.</p>
+                        <h2 class="subtitle"></h2>
+                        <p class="testimony__review"></p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -77,10 +81,8 @@
 
                 <section class="testimony__body" data-id="2">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Cristian Leiva, <span class="testimony__course">Desarrollador Frontend</span></h2>
-                        <p class="testimony__review">Soy desarrollador frontend con experiencia en la creación de interfaces web optimizadas y accesibles. Me especializo en maquetado preciso, desarrollo de componentes reutilizables y optimización del rendimiento en la web. He trabajado con tecnologías como HTML, CSS, JavaScript y CMS como Adobe Experience Manager, WordPress y Drupal.
-                            Me apasiona transformar diseños en experiencias interactivas y funcionales, asegurando que cada detalle cumpla con los estándares modernos. Siempre estoy buscando nuevas oportunidades para seguir creciendo y perfeccionando mis habilidades.
-                            Cuando no estoy programando, disfruto explorando nuevas tendencias en desarrollo web, trabajando en mi portafolio o aprendiendo sobre automatización del hogar.</p>
+                        <h2 class="subtitle"></h2>
+                        <p class="testimony__review"></p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -90,10 +92,8 @@
 
                 <section class="testimony__body" data-id="3">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Cristian Leiva, <span class="testimony__course">Desarrollador Frontend</span></h2>
-                        <p class="testimony__review">Soy desarrollador frontend con experiencia en la creación de interfaces web optimizadas y accesibles. Me especializo en maquetado preciso, desarrollo de componentes reutilizables y optimización del rendimiento en la web. He trabajado con tecnologías como HTML, CSS, JavaScript y CMS como Adobe Experience Manager, WordPress y Drupal.
-                            Me apasiona transformar diseños en experiencias interactivas y funcionales, asegurando que cada detalle cumpla con los estándares modernos. Siempre estoy buscando nuevas oportunidades para seguir creciendo y perfeccionando mis habilidades.
-                            Cuando no estoy programando, disfruto explorando nuevas tendencias en desarrollo web, trabajando en mi portafolio o aprendiendo sobre automatización del hogar.</p>
+                        <h2 class="subtitle"></h2>
+                        <p class="testimony__review"></p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -103,10 +103,8 @@
 
                 <section class="testimony__body" data-id="4">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Cristian Leiva, <span class="testimony__course">Desarrollador Frontend</span></h2>
-                        <p class="testimony__review">Soy desarrollador frontend con experiencia en la creación de interfaces web optimizadas y accesibles. Me especializo en maquetado preciso, desarrollo de componentes reutilizables y optimización del rendimiento en la web. He trabajado con tecnologías como HTML, CSS, JavaScript y CMS como Adobe Experience Manager, WordPress y Drupal.
-                            Me apasiona transformar diseños en experiencias interactivas y funcionales, asegurando que cada detalle cumpla con los estándares modernos. Siempre estoy buscando nuevas oportunidades para seguir creciendo y perfeccionando mis habilidades.
-                            Cuando no estoy programando, disfruto explorando nuevas tendencias en desarrollo web, trabajando en mi portafolio o aprendiendo sobre automatización del hogar.</p>
+                        <h2 class="subtitle"></h2>
+                        <p class="testimony__review"></p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -119,107 +117,92 @@
             </div>
         </section>
 
-        <section class="price container" id="experiencia">
+        <section class="experience container" id="experiencia">
             <h2 class="subtitle">Experiencia</h2>
 
-            <div class="price__table">
-                <div class="price__element">
-                    
-                    <h3 class="price__price">Banner Developer</h3>
-                    <div class="price__items">
-                        <p class="price__features">HTML</p>
-                        <p class="price__features">CSS`</p>
-                        <p class="price__features">JavaScript</p>
-                        <p class="price__features">GSAP</p>
-                        <p class="price__features">Animaciones</p>
+            <div class="experience__table">
+                <div class="experience__element">
+
+                    <h3 class="experience__experience">Banner Developer</h3>
+                    <div class="experience__items">
+                        <p class="experience__features">HTML</p>
+                        <p class="experience__features">CSS`</p>
+                        <p class="experience__features">JavaScript</p>
+                        <p class="experience__features">GSAP</p>
+                        <p class="experience__features">Animaciones</p>
                     </div>
-                    <a href="pdfs/finalBanner.pdf" class="price__cta" download="Cristian Leiva - Banner Developer" target="_blank">Mis trabajos</a>
+                    <a href="pdfs/finalBanner.pdf" class="experience__cta" download="Cristian Leiva - Banner Developer" target="_blank">Mis trabajos</a>
                 </div>
 
 
-                <div class="price__element">
-                    <h3 class="price__price">Frontend Developer</h3>
-                    <div class="price__items">
-                        <p class="price__features">React.js</p>
-                        <p class="price__features">Vue.js</p>
-                        <p class="price__features">Node.js</p>
+                <div class="experience__element">
+                    <h3 class="experience__experience">Frontend Developer</h3>
+                    <div class="experience__items">
+                        <p class="experience__features">React.js</p>
+                        <p class="experience__features">Vue.js</p>
+                        <p class="experience__features">Node.js</p>
                     </div>
-                    <a href="pdfs/final2.jpg" class="price__cta" download="Cristian Leiva - Frontend Developer" target="_blank">Mis trabajos</a>
+                    <a href="pdfs/final2.jpg" class="experience__cta" download="Cristian Leiva - Frontend Developer" target="_blank">Mis trabajos</a>
                 </div>
 
 
-                <div class="price__element">
-                    <h3 class="price__price">Web Builder</h3>
+                <div class="experience__element">
+                    <h3 class="experience__experience">Web Builder</h3>
 
-                    <div class="price__items">
-                        <p class="price__features">WordPress</p>
-                        <p class="price__features">Adobe Experience Manager</p>
-                        <p class="price__features">Drupal</p>
+                    <div class="experience__items">
+                        <p class="experience__features">WordPress</p>
+                        <p class="experience__features">Adobe Experience Manager</p>
+                        <p class="experience__features">Drupal</p>
                     </div>
-                    <a href="pdfs/finalCMS.png" class="price__cta" download="Cristian Leiva - Web Builder" target="_blank">Mis trabajos</a>
+                    <a href="pdfs/finalCMS.png" class="experience__cta" download="Cristian Leiva - Web Builder" target="_blank">Mis trabajos</a>
                 </div>
             </div>
         </section>
 
-        <section class="questions container" id="skills">
+        <!--<section class="questions container" id="skills">
             <h2 class="subtitle">Mis skills</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
 
             <section class="questions__container">
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Mi historia
+                        <h3 class="questions__title">hola
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show"></p>
                     </div>
                 </article>
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Mi comienzo en el mundo IT
+                        <h3 class="questions__title">
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show"></p>
                     </div>
                 </article>
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Mi vida hoy
+                        <h3 class="questions__title">
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show"></p>
                     </div>
                 </article>
             </section>
+        -->
 
             <section class="container about" id="links">
+                <h2 class="subtitle">Links</h2>
                 <div class="about__main">
                     <a href="https://github.com/CristianGus" target="_blank">
                         <article class="about__icons">
@@ -235,18 +218,18 @@
                             <p class="about__paragrah">Aca mi perfil</p>
                         </article>
                     </a>
-    
+
                     <a href="cv/CV_CristianLeiva_ES.pdf" download="CV_CristianLeiva_ES.pdf" target="_blank">
-                    <article class="about__icons">
-                        <img src="./images/code.svg" class="about__icon">
-                        <h3 class="about__title">CV</h3>
-                        <p class="about__paragrah">Aca descarga mi curriculum</p>
-                    </article>
-                </a>
+                        <article class="about__icons">
+                            <img src="./images/code.svg" class="about__icon">
+                            <h3 class="about__title">CV</h3>
+                            <p class="about__paragrah">Aca descarga mi curriculum</p>
+                        </article>
+                    </a>
                 </div>
             </section>
 
-                <a href="#" class="cta">Volver arriba</a>
+            <a href="#" class="cta d-flex mb-5">Volver arriba</a>
         </section>
     </main>
 
@@ -257,7 +240,7 @@
                 📩 Enviar un email
             </a>
         </section>
-        
+
 
         <section class="footer__copy container">
             <h3 class="footer__copyright">Derechos reservados &copy; Cristian Leiva 2025</h3>
@@ -267,6 +250,8 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/lang.js"></script>
+
 </body>
 
 </html>

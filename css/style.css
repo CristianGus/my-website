@@ -89,6 +89,13 @@ body {
     display: var(--show, none);
 }
 
+.nav__language select {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
 
 /* Hero container */
 
@@ -119,6 +126,8 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 /* About */
@@ -162,13 +171,13 @@ body {
     width: 40px;
 }
 
-/* price */
+/* experience */
 
-.price{
+.experience{
     text-align: center;
 }
 
-.price__table{
+.experience__table{
     padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -177,43 +186,43 @@ body {
     align-items: center;
 }
 
-.price__element{
+.experience__element{
     background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
     --color-plan: #696871;
-    --color-price: #1D293F;
+    --color-experience: #1D293F;
     --bg-cta: #fff;
     --color-cta: #5454D4;
     --color-items: #696871;
 }
 
-.price__element--best{
+.experience__element--best{
     width: 370px;
     padding: 60px 40px;
     background-color: #FF7143;
     --color-plan: rgb(255 255 255 / 75%);
-    --color-price: #fff;
+    --color-experience: #fff;
     --bg-cta: #9F3919;
     --color-cta: #FFF;
     --color-items: #fff;
 }
 
 
-.price__name{
+.experience__name{
     color: var(--color-plan);
     margin-bottom: 15px;
     font-weight: 300;
 }
 
-.price__price{
+.experience__experience{
     font-size: 2.5rem;
-    color: var(--color-price);
+    color: var(--color-experience);
 }
 
-.price__items{
+.experience__items{
     margin-top: 35px;
     display: grid;
     gap: 1em;
@@ -223,7 +232,7 @@ body {
     color: var(--color-items);
 }
 
-.price__cta{
+.experience__cta{
     display: block;
     padding: 20px 0;
     border-radius: 10px;
@@ -592,16 +601,16 @@ body {
         font-size: 1.8rem;
     }
 
-    .price__element{
+    .experience__element{
         width: 90%;
     }
 
-    .price__element--best{
+    .experience__element--best{
         width: 90%;
         /* padding: 40px; */
     }
 
-    .price__price{
+    .experience__experience{
         font-size: 2rem;
     }
 
